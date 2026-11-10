@@ -1,0 +1,42 @@
+
+===== VALIDATION RESULTS =====
+Images evaluated: 4307
+Accuracy: 59.2524%
+Macro F1: 0.5464
+Weighted F1: 0.5856
+
+              precision    recall  f1-score   support
+
+       angry     0.5186    0.4658    0.4908       599
+     disgust     0.3368    0.4923    0.4000        65
+        fear     0.5133    0.3447    0.4125       615
+       happy     0.7593    0.8309    0.7935      1082
+     neutral     0.5098    0.6309    0.5639       745
+         sad     0.4837    0.4497    0.4660       725
+    surprise     0.6944    0.7017    0.6980       476
+
+    accuracy                         0.5925      4307
+   macro avg     0.5451    0.5594    0.5464      4307
+weighted avg     0.5876    0.5925    0.5856      4307
+
+
+===== TEST RESULTS =====
+Images evaluated: 7178
+Accuracy: 59.1112%
+Macro F1: 0.5542
+Weighted F1: 0.5822
+
+              precision    recall  f1-score   support
+
+       angry     0.4848    0.4499    0.4667       958
+     disgust     0.3953    0.6126    0.4806       111
+        fear     0.4938    0.3096    0.3806      1024
+       happy     0.7571    0.8258    0.7900      1774
+     neutral     0.5116    0.6634    0.5777      1233
+         sad     0.4892    0.4346    0.4603      1247
+    surprise     0.7227    0.7244    0.7236       831
+
+    accuracy                         0.5911      7178
+   macro avg     0.5506    0.5743    0.5542      7178
+weighted avg     0.5849    0.5911    0.5822      7178
+
